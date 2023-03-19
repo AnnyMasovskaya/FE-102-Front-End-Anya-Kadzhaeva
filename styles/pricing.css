@@ -1,0 +1,74 @@
+.Pricing {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #F5F5F5;
+    text-align: center;
+
+}
+
+.pricing-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 79px;
+
+}
+
+.pricing-card {
+    width: 370px;
+
+}
+.optima-active{
+    margin-top: -25px;
+    box-shadow: 0 14px 28px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.22);
+}
+
+
+.card-list__list {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #F5F5F5;
+    text-align: center;
+    text-transform: capitalize;
+}
+.card-list__list:nth-child(-n+3){
+    background-color: #333333;
+    color: white;
+   
+}
+.card-list__list:nth-child(n+4){
+    background-color: white;
+    color:  #86878B;
+}
+.card-list__list:nth-child(n+3){
+    padding: 10px 0;
+}
+
+.basic,
+.optima,
+.pro {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
